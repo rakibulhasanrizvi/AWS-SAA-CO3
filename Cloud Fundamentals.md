@@ -19,16 +19,16 @@
 
 **Traditional way vs Cloud way.**
   _Example:_ We need to increase the capacity ram and storage of our server.  
-      Traditional way: We need to buy it, go to the data center and install it.  
-      Cloud way: Just need to login to the console and resize whatever we want to with Pay-as-you-go pricing.
+      **Traditional way:** We need to buy it, go to the data center and install it.  
+      **Cloud way:** Just need to login to the console and resize whatever we want to with Pay-as-you-go pricing.
 
-**Types of Cloud Computing Model.**
-  There are 3 types of cloud computing models.
-    Software as a Service (SaaS): Google Docs, Office 365 etc.
-    Platform as a Service (PaaS): Google App Engine.
+**Types of Cloud Computing Model.**  
+  There are 3 types of cloud computing models.  
+    Software as a Service (SaaS): Google Docs, Office 365 etc.  
+    Platform as a Service (PaaS): Google App Engine.  
     Infrastructure as a Service (IaaS): AWS EC2, Google Compute Engine, Microsoft Azure Virtual Machines etc.
 
 **Main Characteristics of Cloud Computing Service**
-    1. On Demand. [Resource available whenever needed]  
+    1. On Demand. [Resource available whenever needed]    
     2. Elasticity. [Resource capacity can grow and shrink based on demand]  
     3. Measured Service. [Pay for what is used]
