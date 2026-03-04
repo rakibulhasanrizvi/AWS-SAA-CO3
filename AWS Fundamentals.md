@@ -4,12 +4,14 @@
     Each AZ is physically separated but are connected via high speed, low latency private links within the region.
     So we can think of it as "private connectivity inside the region".
     There are 123 Availability Zones (AZs).
+![Availability Zones](images/AZ.png)
 
 **Regions**  
 
         Region is a geographical area that contains multiple Availability Zones (AZs).
         Each Region contains 2 or more Availability Zones (usually at least 3).
         AWS has 39 Regions globally till now.
+![Region](images/Region.png)
 
 **What is Amazon VPC?**
 
