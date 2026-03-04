@@ -7,7 +7,7 @@
   Instead of buying expensive hardwares, rent data center space, install networking, hire people to maintain everything, we can take the
   services from providers and pay only for what we use. We dont need invest big at a single time.
 
-**Benefits of cloud migration**  
+**Benefits of cloud migration**
   1. No hardware purchase.
   2. No need to worry about maintanance.
   3. on demand delivery of resources.
@@ -19,8 +19,8 @@
 
 **Traditional way vs Cloud way.**
   _Example:_ We need to increase the capacity ram and storage of our server.  
-      In traditional way: We need to buy it, go to the data center and install it.
-      In Cloud way: Just need to login to the console and resize whatever we want to with Pay-as-you-go pricing.
+      Traditional way: We need to buy it, go to the data center and install it.  
+      Cloud way: Just need to login to the console and resize whatever we want to with Pay-as-you-go pricing.
 
 **Types of Cloud Computing Model.**
   There are 3 types of cloud computing models.
