@@ -12,9 +12,8 @@
         AWS has 39 Regions globally till now.
 
 **What is Amazon VPC?**
-![Amazon VPC](images/VPC.png)
 
         VPC (Virtual Private Cloud) = a private virtual network in AWS where we can launch our resources.
         Basically VPC is our own network in cloud which is isolated from other AWS users.
         This virtual network is like the same network of our traditional data center, with the benefits of scalable infrastructure of AWS.
-        
+![Amazon VPC](images/VPC.png)        
