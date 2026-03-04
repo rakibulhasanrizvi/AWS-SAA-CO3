@@ -28,7 +28,7 @@
     Platform as a Service (PaaS): Google App Engine.
     Infrastructure as a Service (IaaS): AWS EC2, Google Compute Engine, Microsoft Azure Virtual Machines etc.
 
-**Main Characteristics of Cloud Computing Service**  
-    1. On Demand. [Resource available whenever needed]
-    2. Elasticity. [Resource capacity can grow and shrink based on demand.
-    3. Measured Service. [Pay for what is used]    
+**Main Characteristics of Cloud Computing Service**
+    1. On Demand. [Resource available whenever needed]  
+    2. Elasticity. [Resource capacity can grow and shrink based on demand]  
+    3. Measured Service. [Pay for what is used]
