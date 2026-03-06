@@ -24,6 +24,9 @@
 
     A subnet is a range of IP addresses in your VPC. A subnet must exist in a single Availability Zone. After we add subnets, we can
     deploy AWS resources in our VPC. We can assign both IPv4 and IPv6 addresses, to our VPCs and subnets.
+    
+    If a subnet is associated with a route table that has a route to an internet gateway, it's known as a public subnet. If a subnet is
+    associated with a route table that does not have a route to an internet gateway, it's known as a private subnet.
 
 **Route Table**  
 
@@ -34,5 +37,12 @@
     Here,
     Destination = The range of IP addresses where we want traffic to go.
     Target = The gateway, network interface, or connection through which traffic will be sent to its destination.
+![Route Tables](images/route-tables.png)
 
+**Internet Gateway**
 
+    An internet gateway is a VPC component that allows communication between our VPC and the internet. It supports IPv4 and IPv6 traffic.
+    An internet gateway enables resources in our public subnets (such as EC2 instances) to connect to the internet if the resource has a
+    public IPv4/IPv6 address. For example, an internet gateway enables us to connect to an EC2 instance in AWS using our local computer.
+    To use an internet gateway, we must attach it to a VPC and configure routing in route table.
+    
