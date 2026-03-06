@@ -46,3 +46,10 @@
     public IPv4/IPv6 address. For example, an internet gateway enables us to connect to an EC2 instance in AWS using our local computer.
     To use an internet gateway, we must attach it to a VPC and configure routing in route table.
     
+![Internet Gateway](images/internet-gateway.png)  
+    
+    In the following diagram, the subnet in Availability Zone A is a public subnet because its route table has a route that sends all
+    internet-bound IPv4 traffic to the internet gateway. The instances in the public subnet must have public IP addresses or Elastic IP
+    addresses to enable communication with the internet over the internet gateway. For comparison, the subnet in Availability Zone B is a
+    private subnet because its route table does not have a route to the internet gateway. Because there is no route to the internet
+    gateway, instances in the private subnet can't communicate with the internet, even if they have public IP addresses.
