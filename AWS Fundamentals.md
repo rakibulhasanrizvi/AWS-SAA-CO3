@@ -53,3 +53,5 @@
     addresses to enable communication with the internet over the internet gateway. For comparison, the subnet in Availability Zone B is a
     private subnet because its route table does not have a route to the internet gateway. Because there is no route to the internet
     gateway, instances in the private subnet can't communicate with the internet, even if they have public IP addresses.
+    
+    For more details: https://docs.aws.amazon.com/vpc/latest/userguide/working-with-igw.html 
