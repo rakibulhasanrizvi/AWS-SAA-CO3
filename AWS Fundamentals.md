@@ -54,4 +54,18 @@
     private subnet because its route table does not have a route to the internet gateway. Because there is no route to the internet
     gateway, instances in the private subnet can't communicate with the internet, even if they have public IP addresses.
     
-    For more details: https://docs.aws.amazon.com/vpc/latest/userguide/working-with-igw.html 
+For more details: https://docs.aws.amazon.com/vpc/latest/userguide/working-with-igw.html 
+
+**Amazon Elastic Compute Cloud (EC2)**  
+
+    Amazon Elastic Compute Cloud (EC2) is a service that provides virtual servers in the cloud.
+
+Features of Amazon EC2:  
+    
+    Instances - Virtual servers.
+    Amazon Machine Images (AMIs) - The operating system.
+    Instance types - Various configurations of CPU, memory, storage and other hardwares.
+    Amazon EBS volumes - Storage volumes for your data.
+    Key pairs - Secure login information for the instance. AWS stores the public key and we store the private key.
+    Security groups - A virtual firewall for the instances. Control inbound and outbound traffic IP, port, and protocol.
+    
